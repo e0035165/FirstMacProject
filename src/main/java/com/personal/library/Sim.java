@@ -12,28 +12,28 @@ public abstract class Sim {
 		this.number = number;
 		this.countrycode = countrycode;
 	}
-	protected String getNameofsim() {
+	public String getNameofsim() {
 		return nameofsim;
 	}
-	protected void setNameofsim(String nameofsim) {
+	public void setNameofsim(String nameofsim) {
 		this.nameofsim = nameofsim;
 	}
-	protected long getDatapkt() {
+	public long getDatapkt() {
 		return datapkt;
 	}
-	protected void setDatapkt(long datapkt) {
+	public void setDatapkt(long datapkt) {
 		this.datapkt = datapkt;
 	}
-	protected String getNumber() {
+	public String getNumber() {
 		return number;
 	}
-	protected void setNumber(String number) {
+	public void setNumber(String number) {
 		this.number = number;
 	}
-	protected String getCountrycode() {
+	public String getCountrycode() {
 		return countrycode;
 	}
-	protected void setCountrycode(String countrycode) {
+	public void setCountrycode(String countrycode) {
 		this.countrycode = countrycode;
 	}
 	
