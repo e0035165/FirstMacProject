@@ -3,11 +3,18 @@ package com.personal.library;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.personal.sim.Sim;
+
+@Component
 public class IosPhone extends MobilePhone implements InbuiltApplications {
 	Integer version;
 	List<String>inbuiltApps;
 	Sim sim = null;
 	
+	@Autowired
 	public IosPhone(long serial_id, long mEMORY_SPACE, String model, Integer version) {
 		super(serial_id, mEMORY_SPACE, model);
 		this.version = version;

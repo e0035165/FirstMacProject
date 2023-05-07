@@ -1,7 +1,12 @@
+com/personal/sim/Starhub.class
 com/personal/library/MobilePhone.class
-com/personal/FirstMacProject/ConfigPage.class
 com/personal/library/InbuiltApplications.class
+com/personal/sim/Sim.class
 com/personal/FirstMacProject/App.class
-com/personal/library/Singtel.class
 com/personal/library/IosPhone.class
-com/personal/library/Sim.class
+com/personal/FirstMacProject/ParrallelConfiguration.class
+com/personal/User/User.class
+com/personal/library/UserRepository.class
+com/personal/library/AndroidPhone.class
+com/personal/sim/Singtel.class
+com/personal/library/Membership.class

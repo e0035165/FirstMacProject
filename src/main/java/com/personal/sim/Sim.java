@@ -1,4 +1,4 @@
-package com.personal.library;
+package com.personal.sim;
 
 public abstract class Sim {
 	private String nameofsim;
